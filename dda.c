@@ -3,7 +3,7 @@
 #include<math.h>
 #include<graphics.h>
 
-void main(){
+int main(){
 	int gd = DETECT,gm;
 	int x1,y1,x2,y2,dx,dy,step,i;
 	float xinc,yinc,x,y;
@@ -33,4 +33,5 @@ void main(){
 	}
 	getch();
 	closegraph();
+	return 0;
 }
