@@ -62,11 +62,6 @@ void main()
   putpixel(xc-x,yc-y,2);
 
   }
-  line(xc+rx,yc,xc-rx,yc);
-  line(xc,yc+ry,xc,yc-ry);
-  outtextxy(xc+(1.2*rx),yc-(1.2*ry),"(x,y)");
-  outtextxy(xc-(1.2*rx),yc+(1.2*ry),"(-x,-y)");
-  outtextxy(xc+(1.2*rx),yc+(1.2*ry),"(x,-y)");
-  outtextxy(xc-(1.2*rx),yc-(1.2*ry),"(-x,y)");
   getch();
+  closegraph();
 }
